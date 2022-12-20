@@ -1,9 +1,9 @@
 console.log("hello world");
 
 const color = document.querySelector('#color');
-color.addEventListener("click", function(){ alert("My favorite color is purple.");
+    color.addEventListener("click", function(){ alert("My favorite color is purple.");
 } );
-color.classList.add("button");
+    color.classList.add("button");
 
 const place = document.querySelector('#place');
 place.addEventListener("click", function(){ alert("My favorite place is my bed."); });
